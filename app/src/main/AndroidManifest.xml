@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.evidencias.pina.unidades" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.evidencias.pina.unidades.MainActivity"
+            android:label="Paulina Barrera Cabrera" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.evidencias.pina.unidades.Unidad1"
+            android:label="Unidad 1" >
+            <intent-filter>
+                <action android:name="com.evidencias.pina.unidades.UNIDAD1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.evidencias.pina.unidades.Unidad2"
+            android:label="Unidad 2" >
+            <intent-filter>
+                <action android:name="com.evidencias.pina.unidades.UNIDAD2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.evidencias.pina.unidades.Unidad3"
+            android:label="Unidad 3" >
+            <intent-filter>
+                <action android:name="com.evidencias.pina.unidades.UNIDAD3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
